@@ -17,7 +17,7 @@ initWebRoutes(app);
 
 connectDB();
 
-let port = process.env.PORT || 6969;
+let port = process.env.PORT;
 //PORT === undefined => port =6969
 
 app.listen(port, () => {
